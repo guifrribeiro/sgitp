@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="5">
   <diagram name="Page-1" id="9TYzOUOeQ3z76JblQF8q">
     <mxGraphModel dx="2025" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -612,7 +612,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d5Rz-DCD-RLm-gTk05Kc" name="Maps Integration">
-    <mxGraphModel dx="1114" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -677,6 +677,87 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="540" as="sourcePoint" />
             <mxPoint x="480" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FlEaX7ou2SJ8_hb_xCDo" name="Dashboard Screen">
+    <mxGraphModel dx="1114" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-1" value="Frontend (Web Application - Dashboard UI)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-2" value="Backend (Dashboard Service)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-4" value="Data Processing Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-6" value="Data Warehouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="780" y="150" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-8" value="Authentication Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-10" value="Notification Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zZSI1_UdoPSNkwLCln3x-1" target="zZSI1_UdoPSNkwLCln3x-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="115" as="sourcePoint" />
+            <mxPoint x="200" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-13" value="Requisita dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zZSI1_UdoPSNkwLCln3x-12">
+          <mxGeometry x="-0.425" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZSI1_UdoPSNkwLCln3x-2" target="zZSI1_UdoPSNkwLCln3x-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="295" as="sourcePoint" />
+            <mxPoint x="530" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-16" value="Solicita dados&lt;br&gt;processados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zZSI1_UdoPSNkwLCln3x-14">
+          <mxGeometry x="0.0897" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zZSI1_UdoPSNkwLCln3x-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="290" as="sourcePoint" />
+            <mxPoint x="780" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-18" value="Insere/Atualiza dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zZSI1_UdoPSNkwLCln3x-17">
+          <mxGeometry x="-0.0872" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zZSI1_UdoPSNkwLCln3x-2" target="zZSI1_UdoPSNkwLCln3x-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="280" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-20" value="Verifica&lt;br&gt;permissões" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zZSI1_UdoPSNkwLCln3x-19">
+          <mxGeometry x="-0.0783" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zZSI1_UdoPSNkwLCln3x-2" target="zZSI1_UdoPSNkwLCln3x-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="280" as="sourcePoint" />
+            <mxPoint x="240" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZSI1_UdoPSNkwLCln3x-22" value="Envia notificações" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zZSI1_UdoPSNkwLCln3x-21">
+          <mxGeometry x="-0.1429" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
